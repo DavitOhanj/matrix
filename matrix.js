@@ -1,10 +1,10 @@
-function printMat(mat) {
+function printMat(matrix) {
 
   let result = "";
 
-  for (let i = 0; i < mat.length; i++) {
-    for (let j = 0; j < mat.length; j++) {
-      result += mat[i][j] + '\t';
+  for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < matrix.length; j++) {
+      result += matrix[i][j] + '\t';
     }
     result += "\n";
   }
